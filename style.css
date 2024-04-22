@@ -1,0 +1,59 @@
+* {
+  background-color: rgb(109, 105, 110);
+}
+
+.tam-pagina {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container ul li {
+  display: inline;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.svgContainer {
+  display: flex;
+  margin-top: 50px;
+}
+
+.foto {
+  width: 350px;
+  height: 350px;
+}
+
+header a {
+  color: rgb(222, 222, 222);
+}
+
+nav ul {
+  color: rgb(222, 222, 222);
+}
+
+nav ul li a {
+  color: rgb(222, 222, 222);
+}
+
+h1,
+h2,
+p,
+small {
+  color: rgb(222, 222, 222);
+}
+
+.fim {
+  position: fixed;
+  bottom: 0;
+  padding: 10px 0;
+  border: 1px solid black;
+}
