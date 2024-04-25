@@ -4,35 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="contato.js"></script>
   </head>
-  <body>
-    <header>Portifolio do Juan</header>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Página Inicial</a></li>
-        <li>
-          <a href="https://www.linkedin.com/in/juanlucca846/" target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-        <li>
-          <a href="https://github.com/JuanLucca846" target="_blank">Github</a>
-        </li>
-      </ul>
-    </nav>
-    <main>
+  <body class="tam-pagina">
+    <div class="container">
+      <header><a href="../index.html">Portifolio do Juan</a></header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Página Inicial</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/juanlucca846/" target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/JuanLucca846" target="_blank">Github</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main class="container-form">
       <h1>Envie uma mensagem por Email</h1>
       <form>
-        <label>Nome:</label><br />
+        <label class="cor-form">Nome:</label><br />
         <input /><br />
-        <label>Assunto:</label><br />
+        <label class="cor-form">Assunto:</label><br />
         <input /><br />
-        <label>Sua mensagem:</label><br />
+        <label class="cor-form">Sua mensagem:</label><br />
         <textarea></textarea><br />
-        <button>Enviar</button>
+        <button class="cor-form" onclick="enviar()">Enviar</button>
       </form>
     </main>
-    <footer>
+    <footer class="fim">
       <small>Copyright by Juan</small>
     </footer>
   </body>
